@@ -48,8 +48,7 @@ body {
     color: var(--text-color);
 }
 
-.navigation .link-active {
-    color: var(--fill-color);
+.navigation .link-active {;
     font-weight: bold;
 }
 
