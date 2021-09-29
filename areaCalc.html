@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Triangles | Area Calculator</title>
+</head>
+<body>
+    <nav class="navigation">
+
+        <label class="logo">
+            <a class="link" href='/index.html'>TRIANGLES</a>
+        </label>
+
+        <ul class="navigation--elements">
+            <li class="list--inline">
+                <a class="link" href='/index.html'>TRIANGLE CHECK</a>
+            </li>
+            <li class="list--inline">
+                <a class="link" href='/hypotenuseCalc.html'>HYPOTENUSE CALCULATOR</a>
+            </li>
+            <li class="list--inline">
+                <a class="link link-active" href='/areaCalc.html'>AREA CALCULATOR</a>
+            </li>
+            <li class="list--inline">
+                <a class="link" href='/quiz.html'>QUIZ</a>
+            </li>
+
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 class="heading">Area Calculator</h1>
+        <p class="description">Enter Base and Height of the triangle to know the Area</p>
+        <label class="input-label" for="base" >Length of Base:</label>
+        <input type="number" min="0" id="base" class="input">
+        <label class="input-label" for="Heigth" >Length of Heigth:</label>
+        <input type="number" min="0" id="Heigth" class="input">
+        <button class="btn-check">Calculate</button>
+        <div class="result"></div>
+    </div>
+    <hr>
+    <footer class="footer">
+        <h2 class="footer-header">about</h2>
+        <p>Enter the length of the altitude and base to know the area of a right angled triangle.</p>
+    </footer>
+    <script src="/areaCalc.js"></script>
+</body>
+</html>
